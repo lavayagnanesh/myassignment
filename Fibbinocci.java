@@ -1,22 +1,21 @@
-package week1.day1;
+package juneweek1.day1;
 
 public class Fibbinocci {
-
 	public static void main(String[] args) {
-		int firstNum=0;
-		int secNum=1;
-		int sum;
+		// TODO Auto-generated method stub
 		
-		for(int n=1; n<=11; n++) 
-		{
+		int firstNum = 0;
+		int secondNum = 1;
+		int sum=0;
+		
+		for( int i =0; i<=12;i++)
+		{	
 			System.out.println(firstNum);
-			sum=firstNum+secNum;
-			firstNum=secNum;
-			secNum=sum;
+			sum= firstNum+secondNum ;
+			firstNum=secondNum;
+			secondNum=sum;	
 			
-		}
-			
+		}		
 
 	}
-
 }
